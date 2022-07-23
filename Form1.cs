@@ -16,5 +16,10 @@ namespace tokenShield
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("error: The program did not start");
+        }
     }
 }
